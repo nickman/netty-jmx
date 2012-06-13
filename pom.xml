@@ -9,9 +9,10 @@
   <url>https://github.com/nickman/netty-jmx#readme.md</url>
   <properties>
     <junit.version>4.8.2</junit.version>
-    <netty.version>3.4.1.Final</netty.version>
+    <netty.version>4.0.0.Alpha1-SNAPSHOT</netty.version>
     <json.version>20090211</json.version>
     <log4j.version>1.2.16</log4j.version>
+    <javassist.version>3.16.1-GA</javassist.version>
   </properties>
 
 	<build>
@@ -119,6 +120,11 @@
 			<artifactId>json</artifactId>
 			<version>${json.version}</version>
 		</dependency>
+		<dependency>
+		  <groupId>org.javassist</groupId>
+		  <artifactId>javassist</artifactId>
+		  <version>${javassist.version}</version>
+		</dependency>		
 	  </dependencies>
 	
 
